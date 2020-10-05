@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    font: 400 16px Helvetica, Arial, sans-serif;
+}
+
+.menu {
+    background-color: turquoise;
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: darkgray;
+}
+
+.menu a.active {
+    background-color: pink;
+}
+
+h1 {
+    font-size: 32px;
+    background-color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    padding: 0 50px 10px 50px;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid turquoise;
+}
+
+figcaption {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+ul {
+    margin-right: 50px;
+    list-style-position: inside;
+}
+
+.link {
+    background-color: white;
+    padding: 10px;
+    font-size: 12px
+}
+
+.link a {
+    color: black;
+}
+
+.link a:hover {
+    color: turquoise;
+}
